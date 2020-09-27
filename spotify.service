@@ -1,0 +1,15 @@
+[Unit]
+Description=Spotify Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u spotifyinfo.py
+WorkingDirectory=/home/pi/python/spotify
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+

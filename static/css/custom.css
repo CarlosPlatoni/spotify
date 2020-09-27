@@ -1,0 +1,67 @@
+/*ctrl shift r to reload */
+
+html, body {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+h5,h4 {
+    margin-left: 10px;
+}
+
+button.btn.play::before {
+    font-family: fontAwesome;
+    content: "\f04b";
+}
+
+button.btn.pause::before {
+    font-family: fontAwesome;
+    content: "\f04c";
+}
+
+button.btn.fwd::before {
+    font-family: fontAwesome;
+    content: "\f04e";
+}
+
+button.btn.back::before {
+    font-family: fontAwesome;
+    content: "\f04a";
+}
+
+button.btn.volumeup::before {
+    font-family: fontAwesome;
+    content: "\f028";
+}
+
+button.btn.volumedown::before {
+    font-family: fontAwesome;
+    content: "\f027";
+}
+
+button.btn {
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px; 
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+#volume {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right:10px;
+    text-align: center;
+}
+
+img {
+    margin: 5px 5px 5px 5px;  
+}
+
